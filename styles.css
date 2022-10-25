@@ -9,3 +9,41 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+header div.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header h1, li a{
+    background: #FFF;
+    font-size: 18px;
+}
+
+header div.container nav ul > li{
+    display: inline;
+    margin-right:.7em;
+}
+
+header div.container nav ul > li a{
+    text-decoration: none;
+    color: #6b7280;
+}
+
+header div.container nav ul > li a:hover{
+    color:#5A67D8;
+}
+
+section.overview-hero{
+    background: #E2E8F0;
+}
+
+section.overview-hero div.container{
+    display: grid;
+    padding:2em 4em 2em 4em;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 5em;
+}
