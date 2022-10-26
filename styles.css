@@ -47,3 +47,61 @@ section.overview-hero div.container{
     grid-template-rows: 1fr;
     grid-column-gap: 5em;
 }
+
+section.learn-about div.cards{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 1em;
+}
+
+section.learn-about h2{
+    color: #48BB78;
+    font-size: 24px;
+
+}
+
+div.card{
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: .5px 2px 4px 1px #999;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1.5em;
+
+}
+
+div.card-body h3{
+    color: #48BB78;
+    font-size: 21px;
+}
+
+section.testing{
+    background: #4A5568;
+    color: #FFF;
+    padding: 2em 1em 4em 1em;
+    margin-top: 2.5em;
+    
+}
+
+section.testing div.container{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 5em;
+    align-items: centers;
+}
+
+section.testing div.cta {
+    margin-left: 5em;
+    margin-top: 5em;
+}
+
+section.testing div.cta a{
+    background: #48BB78;
+    padding: 1em 1.5em 1em 1.5em;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
