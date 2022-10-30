@@ -45,7 +45,11 @@ section.overview-hero div.container{
     padding:2em 4em 2em 4em;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
-    grid-column-gap: 5em;
+    grid-column-gap: 2.5em;
+}
+
+section.overview-hero div.container div.overview-hero-image img{
+    width: 15em;
 }
 
 section.learn-about div.cards{
@@ -60,6 +64,11 @@ section.learn-about h2{
     color: #48BB78;
     font-size: 24px;
 
+}
+
+section.learn-about div.card img{
+    width: 15em;
+    height: 10em;
 }
 
 div.card{
@@ -93,6 +102,14 @@ section.testing div.container{
     align-items: centers;
 }
 
+section.stories article img{
+    width: 12em;
+    height:12em;
+    border-radius: 50%;
+    margin-right: 2em;
+
+}
+
 section.testing div.cta {
     margin-left: 5em;
     margin-top: 5em;
@@ -110,8 +127,9 @@ section.testing div.cta a{
 section.stories article{
     display:flex;
     justify-content: center;
-    flex-flow: row wrap;
-    align-items: center;
+    flex-flow: row nowrap;
+    align-items: right;
+    margin-bottom: 2em;
 }
 
 section.stories h2, section.stories article div.article-body p a {
